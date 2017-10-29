@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.1.25)  17 OCT 2017 09:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.1.25)  29 OCT 2017 17:05
 entering extended mode
 **"C:/Users/Troy/Documents/mahi/ISRR Reviews/ISRR_Synergy_2017/draft_springer_2
 .tex"
@@ -317,97 +317,96 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-<r2_iss.png, id=20, 200.75pt x 301.125pt>
+<r2_iss.png, id=21, 200.75pt x 301.125pt>
 File: r2_iss.png Graphic file (type png)
  <use r2_iss.png>
 Package pdftex.def Info: r2_iss.png used on input line 110.
 (pdftex.def)             Requested size: 138.84729pt x 208.28648pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 3460) has occurred while \output is active []
 
- [4 <./r2_iss.png>] <drill_at2.png, id=26, 477.28313pt x 407.27156pt>
+ [4 <./r2_iss.png>] <drill_at2.png, id=27, 477.28313pt x 407.27156pt>
 File: drill_at2.png Graphic file (type png)
  <use drill_at2.png>
 Package pdftex.def Info: drill_at2.png used on input line 124.
 (pdftex.def)             Requested size: 208.27623pt x 177.721pt.
 
-[5 <./drill_at2.png>] <syngrasp_model.jpg, id=31, 391.4625pt x 292.09125pt>
+[5 <./drill_at2.png>] <syngrasp_model.jpg, id=32, 391.4625pt x 292.09125pt>
 File: syngrasp_model.jpg Graphic file (type jpg)
 
 <use syngrasp_model.jpg>
-Package pdftex.def Info: syngrasp_model.jpg used on input line 154.
+Package pdftex.def Info: syngrasp_model.jpg used on input line 155.
 (pdftex.def)             Requested size: 138.84729pt x 103.60175pt.
 
-<syngrasp_grip_top.jpg, id=32, 333.49594pt x 262.73157pt>
+<syngrasp_grip_top.jpg, id=33, 333.49594pt x 262.73157pt>
 File: syngrasp_grip_top.jpg Graphic file (type jpg)
 
 <use syngrasp_grip_top.jpg>
-Package pdftex.def Info: syngrasp_grip_top.jpg used on input line 163.
+Package pdftex.def Info: syngrasp_grip_top.jpg used on input line 164.
 (pdftex.def)             Requested size: 138.84729pt x 109.38835pt.
- [6]
+ [6] [7 <./syngrasp_model.jpg> <./syngrasp_grip_top.jpg>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htbp') on input line 179.
+               Default added (so using `htbp') on input line 182.
 
-<manipulation.png, id=37, 706.13812pt x 319.1925pt>
+<manipulation.png, id=42, 706.13812pt x 319.1925pt>
 File: manipulation.png Graphic file (type png)
  <use manipulation.png>
-Package pdftex.def Info: manipulation.png used on input line 181.
+Package pdftex.def Info: manipulation.png used on input line 184.
 (pdftex.def)             Requested size: 347.12354pt x 156.90735pt.
 
-[7 <./syngrasp_model.jpg> <./syngrasp_grip_top.jpg>]
-<Thumb_Fits_2.png, id=42, 764.10469pt x 407.27156pt>
-File: Thumb_Fits_2.png Graphic file (type png)
- <use Thumb_Fits_2.png>
-Package pdftex.def Info: Thumb_Fits_2.png used on input line 191.
-(pdftex.def)             Requested size: 374.89404pt x 199.8196pt.
+[8 <./manipulation.png>] <thumb_fits_3.png, id=47, 603.75563pt x 323.70938pt>
+File: thumb_fits_3.png Graphic file (type png)
 
-Overfull \hbox (27.77051pt too wide) in paragraph at lines 191--192
+<use thumb_fits_3.png>
+Package pdftex.def Info: thumb_fits_3.png used on input line 197.
+(pdftex.def)             Requested size: 374.89404pt x 201.00398pt.
+
+Overfull \hbox (27.77051pt too wide) in paragraph at lines 197--198
  [][] 
  []
 
-<Objects3.pdf, id=43, 963.6pt x 542.025pt>
+<Objects3.pdf, id=48, 963.6pt x 542.025pt>
 File: Objects3.pdf Graphic file (type pdf)
  <use Objects3.pdf>
-Package pdftex.def Info: Objects3.pdf used on input line 199.
+Package pdftex.def Info: Objects3.pdf used on input line 205.
 (pdftex.def)             Requested size: 374.89404pt x 210.87611pt.
 
-Overfull \hbox (27.77051pt too wide) in paragraph at lines 199--200
+Overfull \hbox (27.77051pt too wide) in paragraph at lines 205--206
  [][] 
  []
 
-[8 <./manipulation.png>]
 
-LaTeX Warning: Text page 9 contains only floats.
+Underfull \vbox (badness 1895) has occurred while \output is active []
 
-[9 <./Thumb_Fits_2.png> <./Objects3.pdf>]
-<pinky_out_crop.png, id=88, 578.91281pt x 528.47438pt>
+ [9 <./thumb_fits_3.png>] <pinky_out_crop.png, id=53, 578.91281pt x 528.47438pt
+>
 File: pinky_out_crop.png Graphic file (type png)
 
 <use pinky_out_crop.png>
-Package pdftex.def Info: pinky_out_crop.png used on input line 224.
+Package pdftex.def Info: pinky_out_crop.png used on input line 229.
 (pdftex.def)             Requested size: 156.20453pt x 142.59322pt.
- <pinky_in_crop.png, id=89, 677.53125pt x 623.32875pt>
+ <pinky_in_crop.png, id=54, 677.53125pt x 623.32875pt>
 File: pinky_in_crop.png Graphic file (type png)
 
 <use pinky_in_crop.png>
-Package pdftex.def Info: pinky_in_crop.png used on input line 230.
+Package pdftex.def Info: pinky_in_crop.png used on input line 235.
 (pdftex.def)             Requested size: 156.20453pt x 143.705pt.
- [10 <./pinky_out_crop.png> <./pinky_in_crop.png>]
-[11] (draft_springer_2.bbl [12]
+ [10 <./Objects3.pdf>] [11 <./pinky_out_crop.png> <./pinky_in_crop.png>] (draft
+_springer_2.bbl [12]
 Missing character: There is no Ã in font cmr9!
 Missing character: There is no ­ in font cmr9!
 Missing character: There is no Ã in font cmr9!
 Missing character: There is no ¡ in font cmr9!
  [13]) [14] (draft_springer_2.aux) ) 
 Here is how much of TeX's memory you used:
- 3669 strings out of 493333
- 54551 string characters out of 3139197
- 122591 words of memory out of 3000000
- 7145 multiletter control sequences out of 15000+200000
+ 3668 strings out of 493333
+ 54535 string characters out of 3139197
+ 123588 words of memory out of 3000000
+ 7144 multiletter control sequences out of 15000+200000
  10613 words of font info for 41 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,9n,49p,1872b,355s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,9n,49p,1770b,355s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
@@ -417,10 +416,11 @@ ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 
 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb>
-Output written on draft_springer_2.pdf (14 pages, 3955958 bytes).
+ic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmti10.pfb>
+Output written on draft_springer_2.pdf (14 pages, 3953152 bytes).
 PDF statistics:
- 140 PDF objects out of 1000 (max. 8388607)
+ 145 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
