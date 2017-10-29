@@ -198,16 +198,15 @@ The models were validated by commanding R2's hand to close around a cylindrical 
 \begin{figure*}[!b]
   \centering
   \includegraphics[width=1.08\linewidth]{Objects3.pdf}
-  \caption{Results from cylindrical synergy testing using the developed curve fits.  The blue field contrains the pure cylindrical objects.  The orange contains rectangular prisms, and the yellow contains the only complex geometry object, the drill}
+  \caption{Results from cylindrical synergy testing using the developed curve fits.  The blue field contains cylindrical objects.  The orange contains rectangular prisms, and the yellow contains the complex geometry object, the drill}
   \label{objects} 
 \end{figure*}
 
 \section{RESULTS}
 \label{results}
 
-REWRITTEN
-After model validation on the robot and subsequent adjustments, the robot was able to manipulate 13 of 15 cylindrical objects in the experiment using the single synergy commanding structure. In addition, five non-cylindrical objects were tested, four of which were nearly square rectangular prisms, and one drill. All four rectangular prism objects were successfully grasped which demonstrated the applicability of this synergy to more than pure cylinders. The drill was not successfully grasped showing an example of the case where this method is not applicable.  The list of these objects as well as their success can be viewed in Fig. \ref{objects}. Of the 20 objects manipulated, 17 were manipulated with no issues, 1 slipped in the grip, and 2 were dropped outright. 
-REWRITTEN 
+The robot was able to successfully manipulate 13 of 15 cylindrical objects in the experiment using the geometric synergy commanding structure based on object diameter. All four rectangular prism objects were successfully grasped which demonstrated the robustness of the geometric synergy control scheme based on cylinders. Of the 20 objects manipulated, 17 were manipulated with no issues, 1 slipped in the grip, and 2 were dropped outright. A summary of the results is presented in Fig \ref{objects}.
+ 
 
 \paragraph{}
 \section{Discussion}
@@ -215,7 +214,7 @@ REWRITTEN
 
 \subsection{SynGrasp Model Validation}
 
-Before the final testing and validation of the system, the SynGrasp model needed to be updated and validated. The SynGrasp model provided a very useful method to determine a starting point for grasp refinement, however, the SynGrasp model remains an idealized model of the robot hand. Many aspects could not be accurately modelled and had to be adjusted through the model validation process, as discussed below. Future additions to the software to allow more realistic actuation could include friction models and more control over the geometry of the hand, as R2's palm is larger than the model allowed. Going forward, SynGrasp is useful for other synergy types such as pinch grasp which has contact forces only in the fingers and does not require use of the palm. 
+The SynGrasp model provided a useful method to determine a starting point for grasp refinement, however, the SynGrasp model remains an idealized model of the robot hand. Many aspects could not be accurately modelled and had to be adjusted through the model validation process, as discussed below. Future additions to the software to allow more realistic actuation could include friction models and more control over the geometry of the hand, as R2's palm is larger than the model allowed. Going forward, SynGrasp is useful for other synergy types such as pinch grasp which has contact forces only in the fingers and does not require use of the palm. 
 
 \begin{figure}[!b]
 \centering
