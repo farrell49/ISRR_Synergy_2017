@@ -103,7 +103,7 @@ While the main purpose of this study is to evaluate a synergy command architectu
 
 \subsection{Test Platform and Motivation}
 
-NASA is actively developing humanoid robotics to work in the same environment as astronauts. To this end, Robonaut 2 is a humanoid robot with two 7 DoF arms (including the wrist), a 3 DoF neck, 1 DoF waist, two 12 DoF hands, and two 7 DoF legs. R2 is currently on board the International Space Station. The design goal of this robot is to assist astronauts with repetitive tasks on the International Space Station like monitoring airflow, cleaning handrails, and unpacking resupply vehicles \cite{r2_diftler}. Currently, NASA is actively developing technologies to allow this robot to behave with more autonomy. This is necessary to allow supervised control over long time delays as missions progress farther and farther from Earth. 
+NASA is actively developing humanoid robotics to work in the same environment as astronauts. To this end, Robonaut 2 is a humanoid robot with two 7 DoF arms (including the wrist), a 3 DoF neck, 1 DoF waist, two 12 DoF hands, and two 7 DoF legs. R2 is currently on board the International Space Station (see Fig \ref{at_r2_iss}. The design goal of this robot is to assist astronauts with repetitive tasks on the International Space Station like monitoring airflow, cleaning handrails, and unpacking resupply vehicles \cite{r2_diftler}. Currently, NASA is actively developing technologies to allow this robot to behave with more autonomy. This is necessary to allow supervised control over long time delays as missions progress farther and farther from Earth. 
 
    \begin{figure}[t]
       \centering
@@ -112,7 +112,7 @@ NASA is actively developing humanoid robotics to work in the same environment as
       \label{at_r2_iss}
    \end{figure}
 
-To achieve this level of autonomy and dexterity, it becomes intractible to set specific values for each robot joint to form every possible hand pose that R2 might require on board the ISS. Currently, each object to be manipulated must be modeled, the approach trajectories made and tested, and the necessary hand positions made and verified. However, if the commands to control grasps can be decreased from 12 DoF to 1 DoF, this task becomes significantly simpler. Instead of each individual object, a single cylindrical model could be made and verified. Then, the robot will have a model to manipulate any cylindrical object encountered. The application of synergies in this case will save time and effort while increasing the capability and usefulness of the dexterous robot.   
+To achieve this level of autonomy and dexterity, it becomes intractible to set specific values for each robot joint to form every possible hand pose that R2 might require on board the ISS. Currently, each object to be manipulated must be modeled, the approach trajectories defined and tested, and the necessary hand positions specified and verified. However, if the complexity of commands to control grasps can be decreased from 12 DoF to 1 DoF, this task becomes significantly simpler. Instead of modeling and planning grasps for each individual object, a single shape-based model could be developed and verified. Then, the robot will have a model to manipulate any similarly shaped object encountered. The application of synergies in this case will save time and effort while increasing the capability and usefulness of the dexterous robot.   
 
 
 \subsection{Current R2 Grasping Process}
